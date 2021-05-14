@@ -1065,31 +1065,37 @@
                     <ul class="department-nav-right">
 
                         <li class="First">
-                            <button class="booking-modal-open booking-button">Book Now</button>
+                            <a href="javascript.void();" title="Book Now" class="BookNow" data-toggle="modal" data-target="#bookingModalCenter">Book Now </a>
                         </li>
                         <li class="Second">
+
                             <a href="https://www.trentham.co.uk/plan-your-visit/memberships/" title="Become a member"
                                 class="memberShip">Become a member </a>
                         </li>
                     </ul>
 
-
-                </div>
-
-
-                <!-- Booking Modal -->
-                <div class="booking-modal-container">
-                    <div class="booking-modal">
-                        <div class="booking-modal__wrapper">
-                            <button class="booking-modal-close">
-                                <i class="fas fa-times"></i>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="bookingModalCenter" tabindex="-1" role="dialog" aria-labelledby="bookingModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
                             </button>
-                            <div class="booking-modal-image"><img src="https://www.trentham.co.uk/media/1690/aboutthegarden1.jpg" alt=""></div>
-                            <iframe src="https://trenthamgardens-test.azurewebsites.net/booking-widget.aspx" width="100%" height="800px" frameborder="0"></iframe>
+                            <div class="modal-body">
+                                <div class="booking-modal-image"><img src="https://www.trentham.co.uk/media/1690/aboutthegarden1.jpg" alt=""></div>
+                                <iframe id="booking-iframe" src="https://trenthamgardens-test.azurewebsites.net/booking-widget.aspx" height="500px" frameborder="0"></iframe>
+                            </div>
+                        </div>
                         </div>
                     </div>
+                    <!-- // Modal -->
+
+
                 </div>
-                <!-- // Booking Modal -->
+
+                
+                
 
 
 
@@ -1597,7 +1603,7 @@
             <div class="hmpg-text row">
                 <div class="about-text col-md-8 col-sm-12">
                     <h1 class="about-text__heading">Welcome to Trentham Estate</h1>
-                    <a href="javascript:void();" class="booking-modal-open">Book here</a>
+                    <a href="javascript:void();"  data-toggle="modal" data-target="#bookingModalCenter">Book here</a>
                     <div class="about-text__description">
                         <p>Visit the award-winning<span>&nbsp;</span><a
                                 data-udi="umb://document/75355a1cfb0c438385a024833c71ed2c"

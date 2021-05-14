@@ -4,12 +4,12 @@ $(function(){var e={};e=2==$(".swiper-container .swiper-slide-duplicate").length
 
 
 
-    $('.booking-modal-open').click(function () {
-        $(".booking-modal-container").addClass("toggled");
-        $('body').css('overflow-y', 'hidden');
-    });
+    // $('.booking-modal-open').click(function () {
+    //     $(".booking-modal-container").addClass("toggled");
+    //     $('body').css('overflow-y', 'hidden');
+    // });
 
-    $('.booking-modal-close').click(function () {
-        $(".booking-modal-container").removeClass("toggled");
-        $('body').css('overflow-y', 'visible');
-    });
+    // $('.booking-modal-close').click(function () {
+    //     $(".booking-modal-container").removeClass("toggled");
+    //     $('body').css('overflow-y', 'visible');
+    // });
