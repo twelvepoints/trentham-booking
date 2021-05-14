@@ -79,7 +79,7 @@
 
 
 
-
+/* Header overrides to show book button on mobile */
 @media (max-width: 767px) {
     .l-header .header ul.department-nav-right {
         display: unset;
